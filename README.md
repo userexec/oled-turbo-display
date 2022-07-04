@@ -33,6 +33,6 @@ You can load the sketch in this repo to your Arduino to test, but it almost cert
 
 To create your processor logos, make 128x64px monochrome bitmaps (or if using a different OLED panel, the appropriate size and format for it) in GIMP, Paint, or whatever. Use Jasper van Loenen's [image2cpp](http://javl.github.io/image2cpp/) to convert them to an array with "Horizontal, 1 bit per pixel" formatting (or again, what your OLED wants). Paste those arrays into the top of the included sketch.
 
-![Starfield Simulation screen saver](https://joshuawoehlke.com/wp-content/uploads/2022/07/starfield.gif)
+![Starfield Simulation screen saver](https://joshuawoehlke.com/wp-content/uploads/2022/07/starfield-simulation.gif)
 
 You may also want to use a different screensaver. It should be relatively straightforward to rip out and replace with something else. Adafruit's [GFX library](https://learn.adafruit.com/adafruit-gfx-graphics-library/overview) is called in this sketch, so it makes sense to build them with that.
